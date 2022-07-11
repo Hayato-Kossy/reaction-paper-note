@@ -1,0 +1,50 @@
+.app-main {
+    width: 70%;
+    height: 100vh;
+}
+
+.app-main-note-edit,
+.app-main-note-preview {
+    height: 50vh;
+}
+
+.app-main-note-edit {
+    padding: 25px;
+}
+
+.app-main-note-edit input,
+textarea {
+    display: block;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    width: 100%;
+    height: calc(50vh - 130px);
+    padding: 5px;
+    resize: none;
+    font-size: 16px;
+}
+
+.app-main-note-edit input {
+    height: 50px;
+    font-size: 2rem;
+}
+
+.app-main-note-preview {
+    border-top: 1px solid #ddd;
+    overflow-y: scroll;
+    background: rgba(0, 0, 0, 0.04);
+}
+
+.preview-title {
+    padding: 0 25px 25px 25px;
+    line-height: 2rem;
+}
+
+.no-active-note {
+    width: 70%;
+    height: 100vh;
+    line-height: 100vh;
+    text-align: center;
+    font-size: 2rem;
+    color: #999;
+}
